@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template: 10% 1fr 5% / 20% 80%;
+    width: 90vw;
+    height: 90vh;
+    gap: 5px;
+    margin: 5px;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    grid-column: 1 / span 2;
+}
+
+aside {
+    background-color: green;
+    color: white;
+}
+
+main {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    grid-column: 1 / span 2;
+}
